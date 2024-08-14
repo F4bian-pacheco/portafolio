@@ -71,7 +71,7 @@ export default async function BlogPage() {
         .map((post, id) => (
           <BlurFade delay={BLUR_FADE_DELAY * 2 + id * 0.05} key={post.slug}>
             <Link
-              className="group block mb-8 border-b border-gray-200 dark:border-gray-700 pb-4 transition-all duration-300 ease-in-out hover:pb-6"
+              className="group block mb-8 border-b border-gray-200 dark:border-gray-700 pb-4 transition-all duration-300 ease-in-out hover:pb-6 relative z-10"
               href={`/blog/${post.slug}`}
             >
               <div className="flex justify-between items-baseline">
