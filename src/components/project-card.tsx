@@ -48,7 +48,7 @@ export function ProjectCard({
     >
       <Link
         href={href || "#"}
-        className={cn("block cursor-pointer", className)}
+        className={cn("block cursor-pointer h-40", className)}
       >
         {video && (
           <video
@@ -64,7 +64,9 @@ export function ProjectCard({
           <Image
             src={image}
             alt={title}
-            className="h-40 w-full overflow-hidden object-cover object-top"
+            className="h-40 w-full overflow-hidden object-fill object-top"
+            width="500"
+            height="500"
           />
         )}
       </Link>
