@@ -1,7 +1,9 @@
+import { Button } from "@/components/ui/button";
 import { getPost } from "@/data/blog";
 import { DATA } from "@/data/resume";
 import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
@@ -61,6 +63,9 @@ export default async function Blog({
 
   return (
     <section id="blog">
+      <Button asChild className="mb-4">
+        <Link href={`/blog`}>← Regresar</Link>
+      </Button>
       <script
         type="application/ld+json"
         suppressHydrationWarning
