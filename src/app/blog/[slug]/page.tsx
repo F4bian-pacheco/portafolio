@@ -63,7 +63,7 @@ export default async function Blog({
 
   return (
     <section id="blog">
-      <Button asChild className="mb-4">
+      <Button asChild className="mb-4 relative z-10">
         <Link href={`/blog`}>← Regresar</Link>
       </Button>
       <script

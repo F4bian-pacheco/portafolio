@@ -6,6 +6,8 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import { ShootingStars } from "@/components/ui/shooting-stars";
+import { StarsBackground } from "@/components/ui/stars-background";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -65,6 +67,8 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
+            <ShootingStars />
+            <StarsBackground starDensity={0.0006} />
           </TooltipProvider>
         </ThemeProvider>
       </body>
