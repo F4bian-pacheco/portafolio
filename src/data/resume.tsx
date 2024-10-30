@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Ingeniero de software apasionado por la tecnología y siempre buscando nuevas formas de innovar y mejorar mis habilidades.",
   summary:
-    "Cuando recibi mi primer pc me gustaba instalar y desinstalar cosas, la curiosidad en el mundo de la tecnologia es algo que me fascina y siempre lo hará 🥰. Me considero un desarrollador Backend que esta en vias de convertirse en Fullstack, aunque me falta creatividad para el Frontend 😅. Con un buen liderazgo, empatía, proactividad y aprendizaje rápido. Hasta el momento mi logro mas destacado fue ser alumno ayudante y dar clases de laboratorio a 85 alumnos en PHP para la asignatura de base de datos de mi carrera universitaria.",
+    "Cuando recibí mi primer PC, me gustaba instalar y desinstalar cosas; la curiosidad en el mundo de la tecnología es algo que me fascina y siempre lo hará 🥰. Me considero un desarrollador backend que está en vías de convertirse en fullstack, aunque me falta creatividad para el frontend 😅. Tengo buen liderazgo, empatía, proactividad y un aprendizaje rápido. Hasta el momento, mi logro más destacado ha sido ser alumno ayudante y dar clases de laboratorio a 85 alumnos en PHP para la asignatura de bases de datos de mi carrera universitaria.",
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
