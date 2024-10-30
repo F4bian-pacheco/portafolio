@@ -4,11 +4,11 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Fabian Pacheco",
   initials: "FP",
-  url: "https://dillion.io",
+  url: "https://pachecodev.com/",
   location: "Talca, CL",
   locationLink: "https://www.google.com/maps/place/talca",
   description:
-    "Ingeniero de software apasionado por la tecnología y siempre buscando nuevas formas de innovar y mejorar mis habilidades.",
+    "Ingeniero de software, apasionado por la tecnología y siempre en busca de nuevas formas de innovar y mejorar mis habilidades.",
   summary:
     "Cuando recibí mi primer PC, me gustaba instalar y desinstalar cosas; la curiosidad en el mundo de la tecnología es algo que me fascina y siempre lo hará 🥰. Me considero un desarrollador backend que está en vías de convertirse en fullstack, aunque me falta creatividad para el frontend 😅. Tengo buen liderazgo, empatía, proactividad y un aprendizaje rápido. Hasta el momento, mi logro más destacado ha sido ser alumno ayudante y dar clases de laboratorio a 85 alumnos en PHP para la asignatura de bases de datos de mi carrera universitaria.",
   avatarUrl: "/me.jpeg",
