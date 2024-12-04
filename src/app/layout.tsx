@@ -17,11 +17,36 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
+  authors: [{ name: DATA.name, url: DATA.contact.social.GitHub.url }],
   title: {
-    default: DATA.name,
-    template: `%s | ${DATA.name}`,
+    default: DATA.title,
+    template: `%s | ${DATA.title}`,
   },
   description: DATA.description,
+  keywords: [
+    "developer",
+    "web developer",
+    "frontend developer",
+    "backend developer",
+    "fullstack developer",
+    "software engineer",
+    "web development",
+    "frontend development",
+    "backend development",
+    "fullstack development",
+    "software development",
+    "react",
+    "next.js",
+    "typescript",
+    "javascript",
+    "node.js",
+    "postgresql",
+    "tailwindcss",
+    "css",
+    "html",
+    "linux",
+    "fabian pacheco"
+  ],
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
