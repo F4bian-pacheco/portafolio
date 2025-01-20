@@ -1,11 +1,14 @@
 import { HackathonCard } from "@/components/hackathon-card";
+import { Icons } from "@/components/icons";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -158,23 +161,34 @@ export default function Page() {
         </div>
       </section>
 
-      {/* <section id="contact">
+      <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+              {/* <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 Contact
-              </div>
+              </div> */}
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
+                Y tengo mas para revisar ...
               </h2>
+              <Link
+                href="https://github.com/F4bian-pacheco"
+                target="_blank"
+                className={cn(
+                  buttonVariants({ variant: "ghost", size: "icon" }),
+                  "size-12"
+                )}
+              >
+                <Icons.github />
+
+              </Link>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
 
               </p>
             </div>
           </BlurFade>
         </div>
-      </section> */}
+      </section>
     </main>
   );
 }
