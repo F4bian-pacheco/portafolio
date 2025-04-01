@@ -4,7 +4,7 @@ publishedAt: "2025-01-20"
 summary: "Clone de Kahoot creado con Svelte + Golang"
 ---
 
-En este post trataré como esta ha sido el proceso de creacion de un clon de Kahoot con Svelte y Golang. 
+En este post trataré como ha sido el proceso de creacion de un clon de Kahoot con Svelte y Golang. 
 
 Primero que nada, ¿Qué es Kahoot? Kahoot es una plataforma de aprendizaje basada en juegos, utilizada como tecnología educativa en escuelas y otras instituciones educativas. Su formato de juego es muy similar al de los concursos de televisión, como por ejemplo "¿Quién quiere ser millonario?".
 
@@ -30,7 +30,17 @@ Empezare explicando los agentes involucrados en el flujo de la aplicación:
 
 - **Host**: Es el que crea la sala y comparte el código de la sala con los jugadores.
 - **Jugadores**: Son los que se unen a la sala utilizando el código compartido por el host.
+- **Sala**: Es el lugar donde se lleva a cabo el juego. Cada sala tiene un código único que es compartido por el host y utilizado por los jugadores para unirse a la sala.
+- **Preguntas**: Son las preguntas que el host crea para el juego. Estas preguntas pueden ser de diferentes tipos, como verdadero o falso, opción múltiple, ordenar, etc.
+- **Ranking**: Es el lugar donde se muestra el puntaje de los jugadores al final del juego. Este ranking se actualiza en tiempo real a medida que los jugadores responden a las preguntas.
 
+## Estados del juego
+El juego tiene diferentes estados, que son los siguientes:
+
+- **Lobby**: Es el estado inicial del juego, donde el host crea la sala y los jugadores se unen a la sala. En este estado, el host puede crear las preguntas y los jugadores pueden ver el código de la sala.
+- **En juego**: Es el estado donde el host ha comenzado el juego y los jugadores pueden responder a las preguntas. En este estado, el host puede ver el puntaje de los jugadores en tiempo real y los jugadores pueden ver el ranking al final del juego.
+- **Revelado**: Es el estado donde el host ha terminado el juego y los jugadores pueden ver el ranking final. En este estado, el host puede ver el puntaje de los jugadores y los jugadores pueden ver el ranking final.
+- **Finalizado**: Es el estado donde el host ha terminado el juego y los jugadores no pueden responder a las preguntas. En este estado, el host puede ver el puntaje de los jugadores y los jugadores pueden ver el ranking final.
 
 ## En proceso... 🚧
 
