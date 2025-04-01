@@ -56,7 +56,7 @@ export default async function BlogPage() {
       <BlurFade delay={BLUR_FADE_DELAY}>
         <h1 className="font-medium text-3xl mb-8 text-center tracking-tighter">Blog</h1>
       </BlurFade>
-      <div className="relative z-10 flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-transparent px-20 pb-20 pt-8 ">
+      <div className="relative z-10 flex h-full w-2/3 mx-auto items-center justify-center overflow-hidden rounded-lg bg-transparent px-20 pb-20 pt-8 ">
         <IconCloud iconSlugs={slugs} />
       </div>
       {posts
