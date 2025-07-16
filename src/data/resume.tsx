@@ -194,7 +194,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "/projects/proyecto1.jpg",
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto1.jpg",
       video:
         "",
     },
@@ -217,7 +217,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/projects/proyecto3.png",
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto3.png",
       video: "",
     },
     {
@@ -244,7 +244,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/projects/proyecto2.png",
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto2.png",
       video: "",
     },
     {
