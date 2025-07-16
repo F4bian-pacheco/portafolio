@@ -171,30 +171,30 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Shortest Path",
-      href: "#",
-      dates: "May 2022 - Sept 2022",
+      title: "Avista Wine Imports Web App",
+      href: "https://www.avistawines.com/",
+      dates: "Sept 2024 - July 2025",
       active: true,
       description:
-        "Este proyecto corresponde al curso de diseño y analisis de algoritmos. Consiste en una aplicacion web de la cual se puede obtener la ruta mas corta en un mapa.Le tengo cariño por que es mi primer acercamiento a un proyecto web, en el cual aprendi a usar flask y a trabajar con mapas",
+        "Desarrollo multiplataforma para la gestion de visitas de degustacion de vinos, la cual incluye la reserva de la visita por el lado web y una app movil para los vendedores, la cual les permite gestionar las visitas, los pagos y la entrega de los vinos",
       technologies: [
-        "Python",
-        "Javascript",
-        "Flask",
-        "Jquery",
-        "Bootstrap",
-        "Leaflet",
-        "Networkx",
-        "Ajax",
+        "React",
+        "Next.js",
+        "Typescript",
+        "Tailwind",
+        "Node.js",
+        "PostgreSQL",
+        "Supabase",
+        "AWS"
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/F4bian-pacheco/Flask-Shortest-Path-Project",
-          icon: <Icons.github className="size-3" />,
-        }
+          type: "Website",
+          href: "https://www.avistawines.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
-      image: "/projects/proyecto1.jpg",
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//Avistawines.png",
       video:
         "",
     },
@@ -217,7 +217,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/projects/proyecto3.png",
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto3.png",
       video: "",
     },
     {
@@ -244,8 +244,36 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/projects/proyecto2.png",
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto2.png",
       video: "",
+    },
+    {
+      title: "Shortest Path",
+      href: "#",
+      dates: "May 2022 - Sept 2022",
+      active: true,
+      description:
+        "Este proyecto corresponde al curso de diseño y analisis de algoritmos. Consiste en una aplicacion web de la cual se puede obtener la ruta mas corta en un mapa.Le tengo cariño por que es mi primer acercamiento a un proyecto web, en el cual aprendi a usar flask y a trabajar con mapas",
+      technologies: [
+        "Python",
+        "Javascript",
+        "Flask",
+        "Jquery",
+        "Bootstrap",
+        "Leaflet",
+        "Networkx",
+        "Ajax",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/F4bian-pacheco/Flask-Shortest-Path-Project",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto1.jpg",
+      video:
+        "",
     },
     {
       title: "K-means Parallel Implementation",
