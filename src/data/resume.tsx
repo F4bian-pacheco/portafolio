@@ -90,12 +90,24 @@ export const DATA = {
 
   work: [
     {
+      company: "NTT DATA",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Ingeniero de Software Backend",
+      logoUrl: "",
+      start: "Sep 2025",
+      end: "Actualidad",
+      description:
+        "Ingeniero Backend en el área de banking, desarrollando y manteniendo APIs de proceso y microservicios con Java y Spring Boot. Trabajo con pipelines CI/CD en GitHub y despliegues sobre OpenShift y Kubernetes.",
+    },
+    {
       company: "Freelance",
       href: "#",
       badges: [],
       location: "Remote",
       title: "Desarrollador FullStack",
-      logoUrl: "",
+      logoUrl: "/nttdata.png",
       start: "Sep 2024",
       end: "Actualidad",
       description:
