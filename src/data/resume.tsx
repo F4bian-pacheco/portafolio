@@ -95,7 +95,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Ingeniero de Software Backend",
-      logoUrl: "",
+      logoUrl: "/nttdata.png",
       start: "Sep 2025",
       end: "Actualidad",
       description:
@@ -107,7 +107,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Desarrollador FullStack",
-      logoUrl: "/nttdata.png",
+      logoUrl: "",
       start: "Sep 2024",
       end: "Actualidad",
       description:
