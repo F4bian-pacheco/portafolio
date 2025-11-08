@@ -21,9 +21,10 @@ export const DATA = {
     "Tailwind",
     "Node.js",
     "Python",
-    "Django",
     "PHP",
     "Java",
+    "Apache Camel",
+    "Spring Boot",
     "Laravel",
     "MySQL",
     "PostgreSQL",
@@ -34,6 +35,12 @@ export const DATA = {
     "AWS",
     "Supabase",
     "Firebase",
+    "Microservices",
+    "REST APIs",
+    "Agile Methodologies",
+    "Clean Architecture",
+    "Integration Services",
+    "AI Tools",
     "Fast Learning",
     "Teamwork",
     "English",
@@ -55,7 +62,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/fabian-andres-pacheco-zelada/",
+        url: "https://www.linkedin.com/in/fabian-pacheco-zelada/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -183,6 +190,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "JSLT - Playground",
+      href: "https://jslt-playground-dc1jon-ffe38d-72-60-172-172.traefik.me/",
+      dates: "Oct 2025",
+      active: false,
+      description:
+        "JSLT Playground es una aplicación web interactiva diseñada para facilitar la creación, prueba y validación de transformaciones de datos utilizando JSLT (JSON Language Transformations). Esta herramienta es un desafio personal para profundizar en el lenguaje JSLT basandome en el proyecto original de Schibsted. Permite a los usuarios escribir y ejecutar scripts JSLT, ahorrando tiempo y esfuerzo en las pruebas de transformaciones de datos complejas.",
+      technologies: [
+        "Python",
+        "React",
+        "Tailwind",
+        "FastAPI",
+        "Docker",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jslt-playground-dc1jon-ffe38d-72-60-172-172.traefik.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/F4bian-pacheco/jslt-playground",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog/jslt.png",
+      video: "",
+    },
+    {
       title: "Avista Wine Imports Web App",
       href: "https://www.avistawines.com/",
       dates: "Sept 2024 - July 2025",
@@ -211,28 +247,6 @@ export const DATA = {
         "",
     },
     {
-      title: "Web Scraping ",
-      href: "#",
-      dates: "Oct 2022 - Nov 2022",
-      active: true,
-      description:
-        "Este proyecto consiste en la obtención y comparación de datos de compra y venta de automóviles entre dos paginas reconocidas en chile",
-      technologies: [
-        "Python",
-        "PoweBi",
-        "Selenium"
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/F4bian-pacheco/Web-Scraping-KPIs",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto3.png",
-      video: "",
-    },
-    {
       title: "Ping Pong Game",
       href: "https://github.com/F4bian-pacheco/ping_pong",
       dates: "Nov 2024",
@@ -256,34 +270,29 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto2.png",
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog/proyecto2.png",
       video: "",
     },
     {
-      title: "Shortest Path",
-      href: "#",
-      dates: "May 2022 - Sept 2022",
+      title: "Java Api Rest",
+      href: "https://github.com/F4bian-pacheco/coffee-back",
+      dates: "Julio 2024",
       active: true,
       description:
-        "Este proyecto corresponde al curso de diseño y analisis de algoritmos. Consiste en una aplicacion web de la cual se puede obtener la ruta mas corta en un mapa.Le tengo cariño por que es mi primer acercamiento a un proyecto web, en el cual aprendi a usar flask y a trabajar con mapas",
+        "Api rest creada con java y spring boot para el manejo de una tienda de cafes para el electivo de desarrollo web de mi universidad",
       technologies: [
-        "Python",
-        "Javascript",
-        "Flask",
-        "Jquery",
-        "Bootstrap",
-        "Leaflet",
-        "Networkx",
-        "Ajax",
+        "Java",
+        "Spring Boot",
+        "Mysql"
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/F4bian-pacheco/Flask-Shortest-Path-Project",
+          href: "https://github.com/F4bian-pacheco/coffee-back",
           icon: <Icons.github className="size-3" />,
-        }
+        },
       ],
-      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto1.jpg",
+      image: "",
       video:
         "",
     },
@@ -336,25 +345,52 @@ export const DATA = {
         "",
     },
     {
-      title: "Java Api Rest",
-      href: "https://github.com/F4bian-pacheco/coffee-back",
-      dates: "Julio 2024",
+      title: "Web Scraping ",
+      href: "#",
+      dates: "Oct 2022 - Nov 2022",
       active: true,
       description:
-        "Api rest creada con java y spring boot para el manejo de una tienda de cafes para el electivo de desarrollo web de mi universidad",
+        "Este proyecto consiste en la obtención y comparación de datos de compra y venta de automóviles entre dos paginas reconocidas en chile",
       technologies: [
-        "Java",
-        "Spring Boot",
-        "Mysql"
+        "Python",
+        "PoweBi",
+        "Selenium"
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/F4bian-pacheco/coffee-back",
+          href: "https://github.com/F4bian-pacheco/Web-Scraping-KPIs",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto3.png",
+      video: "",
+    },
+    {
+      title: "Shortest Path",
+      href: "#",
+      dates: "May 2022 - Sept 2022",
+      active: true,
+      description:
+        "Este proyecto corresponde al curso de diseño y analisis de algoritmos. Consiste en una aplicacion web de la cual se puede obtener la ruta mas corta en un mapa.Le tengo cariño por que es mi primer acercamiento a un proyecto web, en el cual aprendi a usar flask y a trabajar con mapas",
+      technologies: [
+        "Python",
+        "Javascript",
+        "Flask",
+        "Jquery",
+        "Bootstrap",
+        "Leaflet",
+        "Networkx",
+        "Ajax",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/F4bian-pacheco/Flask-Shortest-Path-Project",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog//proyecto1.jpg",
       video:
         "",
     },
