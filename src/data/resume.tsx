@@ -190,32 +190,32 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "JSLT - Playground",
-      href: "https://jslt-playground-dc1jon-ffe38d-72-60-172-172.traefik.me/",
-      dates: "Oct 2025",
-      active: false,
+      title: "JSLT - VSC Plugin",
+      href: "https://marketplace.visualstudio.com/items?itemName=FabianPacheco.jslt-preview",
+      dates: "Nov 2025",
+      active: true,
       description:
-        "JSLT Playground es una aplicación web interactiva diseñada para facilitar la creación, prueba y validación de transformaciones de datos utilizando JSLT (JSON Language Transformations). Esta herramienta es un desafio personal para profundizar en el lenguaje JSLT basandome en el proyecto original de Schibsted. Permite a los usuarios escribir y ejecutar scripts JSLT, ahorrando tiempo y esfuerzo en las pruebas de transformaciones de datos complejas.",
+        "Extensión para Visual Studio Code que permite transformar archivos JSON con JSLT y visualizar resultados en tiempo real. Incluye un motor JSLT interno, resaltado de sintaxis completo, explorador de archivos dedicado y vista previa automática al guardar. Este proyecto representa un desafío personal para profundizar en el lenguaje JSLT basándome en el proyecto original de Schibsted, con una implementación interpretada que evoluciona progresivamente para soportar más características del lenguaje.",
       technologies: [
+        "Typescript",
         "Python",
-        "React",
-        "Tailwind",
+        "VS Code API",
         "FastAPI",
-        "Docker",
+        "React",
       ],
       links: [
         {
           type: "Website",
-          href: "https://jslt-playground-dc1jon-ffe38d-72-60-172-172.traefik.me/",
+          href: "https://marketplace.visualstudio.com/items?itemName=FabianPacheco.jslt-preview",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/F4bian-pacheco/jslt-playground",
+          href: "https://github.com/F4bian-pacheco/jslt-preview",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog/jslt.png",
+      image: "https://cicgjbpjgfnnwpypnfeg.supabase.co/storage/v1/object/public/portafolioblog/jslt-preview.png",
       video: "",
     },
     {
