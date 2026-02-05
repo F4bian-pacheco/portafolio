@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Ingeniero de software apasionado por la tecnología, siempre en búsqueda de formas innovadoras para mejorar y ampliar mis habilidades en programación. Mi enfoque está en construir soluciones eficientes y sostenibles, adaptándome a las últimas tendencias y retos tecnológicos.",
   summary:
-    "Desde que recibí mi primera computadora, la curiosidad por la tecnología ha sido una constante en mi vida. Me apasiona explorar, aprender y experimentar, lo que me llevó a convertirme en un desarrollador backend con aspiraciones de fullstack. Aunque el diseño frontend no es mi fuerte, disfruto del desafío que representa. Me considero un líder empático, proactivo y con capacidad de aprendizaje rápido. Mi mayor logro hasta ahora ha sido desempeñarme como ayudante de laboratorio, impartiendo clases de PHP a más de 85 alumnos en la asignatura de bases de datos durante mi carrera universitaria.",
+    "Desde que recibí mi primera computadora, la curiosidad por la tecnología ha sido una constante en mi vida. Me apasiona explorar, aprender y experimentar, lo que me llevó a convertirme en un desarrollador backend con aspiraciones de fullstack. Aunque el diseño frontend no es mi fuerte, disfruto del desafío que representa. Me considero un líder empático, proactivo y con capacidad de aprendizaje rápido.",
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
@@ -74,14 +74,14 @@ export const DATA = {
       },
       // X: {
       //   name: "X",
-      //   url: "https://dub.sh/dillion-twitter",
+      //   url: "",
       //   icon: Icons.x,
 
       //   navbar: true,
       // },
       // Youtube: {
       //   name: "Youtube",
-      //   url: "https://dub.sh/dillion-youtube",
+      //   url: "",
       //   icon: Icons.youtube,
       //   navbar: true,
       // },
@@ -97,6 +97,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Santander",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Ingeniero de Software Backend",
+      logoUrl: "",
+      start: "Feb 2026",
+      end: "Actualidad",
+      description:
+        "Ingeniero de software Backend, desarrollando y manteniendo APIs de proceso y microservicios con Java y Spring Boot.",
+    },
+    {
       company: "NTT DATA",
       href: "#",
       badges: [],
@@ -104,9 +116,9 @@ export const DATA = {
       title: "Ingeniero de Software Backend",
       logoUrl: "/nttdata.png",
       start: "Sep 2025",
-      end: "Actualidad",
+      end: "Ene 2026",
       description:
-        "Ingeniero Backend en el área de banking, desarrollando y manteniendo APIs de proceso y microservicios con Java y Spring Boot. Trabajo con pipelines CI/CD en GitHub y despliegues sobre OpenShift y Kubernetes.",
+        "Ingeniero Backend en el área de banking, desarrollando y manteniendo APIs de proceso y microservicios con Java y Spring Boot.",
     },
     {
       company: "Freelance",
@@ -116,7 +128,7 @@ export const DATA = {
       title: "Desarrollador FullStack",
       logoUrl: "",
       start: "Sep 2024",
-      end: "Actualidad",
+      end: "Sep 2025",
       description:
         "Desarrollo multiplataforma para la gestion de visitas de degustacion de vinos, la cual incluye la reserva de la visita por el lado web y una app movil para los vendedores, la cual les permite gestionar las visitas, los pagos y la entrega de los vinos",
     },
